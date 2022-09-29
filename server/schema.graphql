@@ -1,0 +1,15 @@
+
+type Link {
+url: String!
+title: String!
+}
+
+type Message {
+  mentions: [String]
+  emoticons: [String]
+  links: [Link]
+}
+
+type Query {
+records(message: String!): Message
+}

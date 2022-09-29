@@ -1,0 +1,48 @@
+body {
+  background-color: #5e32ed;
+  margin: 0;
+  padding: 2rem 1.6rem;
+  font-family: roboto;
+}
+
+h1 {
+  color: #bfcde0;
+  margin-top: 0;
+}
+
+#app {
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.form__group {
+  justify-content: center;
+  margin-top: 13px;
+  display: flex;
+}
+
+.form__field {
+  width: 500px;
+  color: #a3a3a3;
+  font: inherit;
+  background: #fff;
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+  box-shadow: 0 6px 10px #0000001a;
+}
+
+.metaContainer {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=index.473c10c0.css.map */
