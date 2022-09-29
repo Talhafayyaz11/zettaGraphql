@@ -1,0 +1,10 @@
+query ExampleQuery($message: String!) {
+  records(message: $message) {
+    mentions,
+    emoticons,
+    links{
+      url,
+      title
+    }
+  }
+}
